@@ -1,0 +1,51 @@
+Front end ---> html, css, JavaScript, React JS, Angular JS , jQuery JS, python
+Back end ---> java, python, .Net, NodeJS, PHP, C, C++ 
+Database ---> SQL
+
+####-Python Learing-####
+
+As a high-level and interpreted language, Python does not need a compiler.
+This is unlike Java and C++ which have to be compiled first before being interpreted. For Python, it relies on the application interpreter. The Python byte code is stored in a .pyc file which is then executed by an appropriate virtual machine. This machine acts as a run-time engine of Python.
+
+--Using phthon
+---way-1
+install it. open cmd and type below. 
+phthon --version
+phthon
+print("Hello world")
+x=11
+print(x)
+exit()
+
+---way-2
+cate a file hello.py , write code in it.
+phthon hello.py --> to run the code.
+
+---way-3
+just open google colab and start writing code directly. 
+
+-- IDSs available ---> VSCode, Pycharm, Eclips , InteliJ etc. 
+
+--No need to define variables with their datatypes while defining variables. Directly can assign values to variables.
+-- python is case senstitive . means variable abc and ABC are are different. 
+-- use # to comment the lines. 
+-- no need to give line end statement like ; pressing enter is enough. 
+However we can use ; to separate 2 statements if writing multiple statement in a single line. 
+--best practice to define variable.. define them in camel case. 
+#camel case --> totalRuns, birthDate 
+#pascal case --> TotalRuns, BirthDate
+#snake case ex --> total_runs, birth_date 
+
+#variables examples...
+myName="Harsh"   # string variable
+x=10             # int variable
+y=11.1           # floting variable
+z=True           # boolean variable
+
+#use variable without quotes.
+print(myName, x, y)
+
+Python Functions: -
+read() --> captures user input as string. Displays any message and give an option to user to enter any values. then captures the response as string. 
+round(n) --> round off the floating decimals to n decimal points. 
+
