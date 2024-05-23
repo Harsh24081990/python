@@ -71,5 +71,5 @@ else:
 # Code to execute if condition1 is false
 ------------------------------------------------------
 in Python you do not need to close the if block (or any block) with a specific keyword like "fi" as you would in a Unix shell script. Python uses indentation to define the scope and boundaries of code blocks. The change in indentation level indicates the end of a block.
-===================================================================
+====================================================================
 
