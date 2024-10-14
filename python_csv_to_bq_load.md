@@ -122,3 +122,18 @@ print(f"Appended data to {existing_table_id} from {temp_table_id}.")
 bq_client.delete_table(temp_table_id)  # Delete the temporary table
 print(f"Temporary table {temp_table_id} deleted.")
 ```
+
+##### NOte : If the csv file is generated of excel sheet, there might come some issue if the CSV file is not in the correct csv format. If there such issues are coming we can first conver the excel sheet data into correct CSV format using pandas, before consuming it. 
+```
+import pandas as pd
+
+# Read the CSV file and handle encoding issues (if necessary)
+csv_file = "path/to/your/csv_file.csv"
+df = pd.read_csv(csv_file, encoding='utf-8')  # Adjust encoding if necessary
+
+# Inspect the first few rows to ensure the data looks correct
+print(df.head())
+
+# Now you can save the cleaned CSV (if needed) and proceed with the BigQuery load
+df.to_csv('cleaned_csv_file.csv', index=False)
+```
