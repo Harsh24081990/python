@@ -123,8 +123,8 @@ bq_client.delete_table(temp_table_id)  # Delete the temporary table
 print(f"Temporary table {temp_table_id} deleted.")
 ```
 
-##### NOte : If the csv file is generated of excel sheet, there might come some issue if the CSV file is not in the correct csv format. If there such issues are coming we can first conver the excel sheet data into correct CSV format using pandas, before consuming it. 
-```
+#### Note : If the csv file is generated of excel sheet, there might come some issue if the CSV file is not in the correct csv format. If there such issues are coming we can first conver the excel sheet data into correct CSV format using pandas, before consuming it. 
+```python
 import pandas as pd
 
 # Read the CSV file and handle encoding issues (if necessary)
