@@ -1,5 +1,5 @@
 ### Python Script to Load CSV Data from GCS to BigQuery (Append Mode) - when the table is already existing.
-### Use this when the CSV file column and the table columns are in the same order. 
+### Use this when the CSV file columns and the table columns are in the same order. 
 ```python
 from google.cloud import bigquery
 
